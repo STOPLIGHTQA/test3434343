@@ -41,6 +41,8 @@ paths:
       description: Retrieve the information of the user with the matching user ID.
       x-stoplight:
         id: tqa945dzcxcz2
+      deprecated: true
+      x-internal: true
     patch:
       summary: Update User Information
       operationId: patch-users-userId
